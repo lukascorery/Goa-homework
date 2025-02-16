@@ -9,3 +9,4 @@ print(name + " " + surname)
 #string - ტექსტური მონაცემი
 #parenthesis - ბრჩხილები
 #quotation marks -  ბრჭყალები
+#parentesis - წილადი
