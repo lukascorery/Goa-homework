@@ -1,0 +1,16 @@
+#furthest right side of the castle roof
+penup()
+goto(300, 200)
+pendown()
+right(90)
+right(30)
+forward(30)
+
+penup()
+goto(200, 200)
+pendown()
+left(60)
+forward(30)
+right(30)
+right(90)
+forward(130)
