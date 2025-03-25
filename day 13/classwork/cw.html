@@ -1,0 +1,30 @@
+<!-- 1) შექმენით ფორმა სადაც მოხმარებელი შეიყვანს სახელს, ემაილს და სქესს. ასევე უნდა შეეძლოს ფორმის დადასტურება, დაიცავით სტანდარტები და გამოიყენეთ name, value, required ატრიბუტები. კომენტარებით ახსენით თითოეული ატრიბუტის დანიშნულება -->
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" required> 
+            <br> <br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <br> <br>
+
+            <label for="gender">Gender</label>
+            <br><br>
+
+            <input type="radio" name="Gender" id="gender">
+            <label for="gender">Male</label>
+            <input type="radio" name="Gender" id="gender2">
+            <label for="gender2">Female</label>
+            <br><br>
+            <!-- name: ქმნის ცხრილს ჩვენს მონაცემთა ველში სადაც ინახება, შემოტანილი ინფორმაცია -->
+            <!-- value: მონაცემთა სისტემაში, ცხრილში როგორც შეინახება ინფორმაცია -->
+            <!-- required: ხდის ინფუთს მნიშვნელოვანს. მისი შევსების გარეშე ვერ გადავლენ -->
+            <input type="submit">
+        </form>
+    </body>
+</html>

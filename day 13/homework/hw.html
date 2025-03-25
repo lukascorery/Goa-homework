@@ -1,0 +1,61 @@
+<!-- 3) შექმენით ფორმა ყველა კარგი პრაქტიკის დაცვით, ისე თითქმოს ინფორმაციას მონაცემთა ბაზაში აგზავნიდეთ (name, value, required), რომელშიც უნდა იყოს შემდეგი შესატანი ველები:
+
+Full Name (text input, required)
+Email (email input, required)
+Age (number input, required)
+City (text input, required)
+Gender (radio buttons: Male, Female, Other, required)
+Hobbies (checkboxes: Reading, Sports, Music, required at least one)
+Submit Button -->
+
+<html>
+    <head>
+        <title>Registration page</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form>
+            <label for="name">Full Name</label>
+            <br>
+            <input type="text" id="name" required>
+            <br><br>
+
+            <label for="email">Email</label>
+             <br>
+            <input type="email" id="email" required>
+            <br> <br>
+
+            <label for="age">Age</label> 
+            <br>
+            <input type="number" id="age" required>
+            <br><br>
+
+            <label for="city">City</label> 
+            <br>
+            <input type="text" id="city" required>
+            <br>
+
+            <h2>gender</h2>
+
+            <input type="radio" id="Female" name ="gender" required>
+            <label for="Female">Female</label>
+
+            <input type="radio" id="Male" name="gender" required>
+            <label for="Male" >Male</label>
+
+            <br>
+            <h2>Hobies</h2>
+            <label for="read">Reading</label>
+            <input type="checkbox" id="read" name="Hobies">
+
+            <label for="sport">Sports</label>
+            <input type="checkbox" id="sport" name="Hobies">
+
+            <label for="music">Music</label>
+            <input type="checkbox" id="music" name="Hobies">
+            
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+</html>
