@@ -1,45 +1,46 @@
-<!-- 4) შექმენით ანალოგიური სარეგისტრაციო ფორმა: -->
- <!-- 3) შექმენით ერთგვერდიანი ვებსაიტი GOA-ს შესახებ, რომელზეც დაამატებთ ნავიგაციას, საიტზე უნდა იყოს მინიმუმ 3 სხვადასხვა სექცია. ამასთან აუცილებლად უნდა იყოს ფორმა, რომლის საშვალებითაც სტუმარი შეძლებს GOA-ში რეგისტრაციას და ჩადობას -->
+<!-- 3) შექმენით ერთგვერდიანი ვებსაიტი GOA-ს შესახებ, რომელზეც დაამატებთ ნავიგაციას, საიტზე უნდა იყოს მინიმუმ 3 სხვადასხვა სექცია. ამასთან აუცილებლად უნდა იყოს ფორმა, რომლის საშვალებითაც სტუმარი შეძლებს GOA-ში რეგისტრაციას და ჩადობას -->
  <html>
     <head>
-        <Title>Registration</Title>
+        <Title>GOA</Title>
     </head>
     <body>
-        <h1 id="GOA">Register</h1>
+        <h1 id="GOA">GOA</h1>
         <form>
             <label for="firstname">First Name</label>
             <br>
             <input type="text" id="firstName">
             <br><br>
-
             <label for="LastName">Last Name</label>
             <br>
             <input type="text" id="LastName">
             <br><br>
-
-            <label for="email">Email</label>
+            <label for="age">AGE</label>
             <br>
-            <input type="email" id="email">
-            <br><br>
-
+            <input type="month" id="age">
+            <br> <br>
             <label for="Gender">Gender</label>
             <br>
             <input type="radio"  name="Gender" id="Gender">
             <label for="Gender">Male</label>
             <input type="radio" name="Gender" id="Gender2">
-            <label for="Gender2">Female</label> 
-            <br> <br>
-
-            <label for="age">Date of birth</label>
-            <br>
-            <input type="month" id="age">
-            <br> <br>
-        
-            <input type="checkbox" id="terms">
-            <label for="terms">Agree to our <a href="GOA3">terms and conditions</a> and <a href="GOA2">Privacy Policy</a></label>
-            <br><br>
-
-            <button>Submit</button>
+            <label for="Gender2">Female</label> <br> <br>
+            <button ><a href="#nav">register</a></button>
         </form>
+        <nav id="nav">
+            <ul>
+                <li><a href="#secton1">About GOA</a></li>
+                <li><a href="#section2">რა შეიძლება ისწავლო გოას შესახებ</a></li>
+                <li><a href="#section3">GOA boxing</a></li>
+            </ul>
+        </nav>
+        <h2 id="section1">About Goa</h2>
+        <p>GOA არის საქართველოში საუკეთესო კოდირების აკადემია სადაც, არიან მომხრეები ჯანსაღი ცხოვრების და დაუზოგავი სწავლის. აქ შენ ისწავლი კოდირების რამოდენიმე სახეობას და ადრიდანვე მოემზადები შენი მომავლისათვის რათა შენს საფუძველს დასაბამი ჩაუდო.</p>
+        
+        <h2 id="section2">რა შეიძლება ისწავლო გოაში?</h2>
+        <p>გოაში არის რამოდენიმე განხრა კოდირების, არის ვებ დეველოპერი, არის თამაშების შემქმნელი, არის საიტების და აპლიკაციების შემქმნელიდა ა. შ. აქ ისწავლი ძალიან მაგარ ხალხთან ერთად და თან ბევრ რამეს ისწავლი. </p>
+        
+        <h2 id="section3">GOA boxing</h2>
+        <p>დიახ სწორედ გაიგეთ. გოას აკადემიამ დაარსა ახალი აკადემია, სადაც მოსწავლეებს შეუძლიათ ისწავლონ თავდაცვისათვის განკუთვნილი საბრძოლო სტილები, უფრო მეტი ინფორმაციის გასაგებად დაგვირეკეთ ან შეგვეხმიანეთ.</p>
+        <a href="#GOA">TOP</a>
     </body>
  </html>

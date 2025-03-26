@@ -1,35 +1,34 @@
-"""6) კომენტარებით დაწერეთ რით განსხვავდება integer და float მონაცემთა ტიპები"""
-#integer - ინტეგერი წარმოადგენს მთელ რიცხვებს, ის არ მოიცავს წილადებს. ინტეგერის დროს ჩვენ ზუსტ პასუხს არ ვიღებთ
-#float - ფლოათი მოიცავს წილადებს, ის არ მოიცავს მთელ რიცხვებს. ფლოათს ვიყენებთ როცა საჭიროა მივიღოთ ზუსტი პასუხი
+"""5) შექმენით 10 string ტიპის და 10 ინტეჯერ ტიპის ცვლადი, გააკეთეთ 5 კონკატინაციისა (სტრინგების შეერთების) და 5 მათემატიკური ჯამის მაგალითი"""
+num_1 = "1"
+num_2 = "2"
+num_3 = "3"
+num_4 = "4"
+num_5 = "5"
+num_6 = "6"
+num_7 = "7"
+num_8 = "8"
+num_9 = "9"
+num_10 = "10"
 
-"""7) integer და float მონაცემთა ტიპის ცვლადებზე შეასრულეთ 20 მაგალითი ოპერატორებით: +, -, *, /, **, %"""
+num_11 = 11
+num_12 = 12
+num_13 = 13
+num_14 = 14
+num_15 = 15
+num_16 = 16
+num_17 = 17
+num_18 = 18
+num_19 = 18
+num_20 = 20
 
-int1 = 10
-float1 = 3/4
-int2 = 20
-float2 = 1/2
-int3 = 25
-float3 = 1/4
-int4 = 50
-float4 = 1/10
+print(num_1 + num_2)
+print(num_3 + num_4)
+print(num_5 + num_6)
+print(num_7 + num_8)
+print(num_9 + num_10)
 
-print(int1 + float1)
-print(int2 - float2)
-print(int3 * float3)
-print(int4 / float4)
-print(int1 ** int2)
-print(float1 % float2)
-print(int3 + int4)
-print(float3 - float4)
-print(int1 * float4)
-print(float1 / int4)
-print(int2 ** float3)
-print(float2 % int3)
-print(int3 - float2)
-print(float3 * int2)
-print(int4 / float1)
-print(float4 ** int1)
-print(int1 % int4)
-print(int2 + int3)
-print(float1 * float4)
-print(float2 / float3)
+print(num_11 + num_12)
+print(num_13 + num_14)
+print(num_15 + num_16)
+print(num_17 + num_18)
+print(num_19 + num_20)

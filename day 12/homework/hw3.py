@@ -1,10 +1,12 @@
-"""6) Bonus დავალება
-შექმენით პროგრამა, რომელიც განსაზღვრავს productive ცვლადის მნიშვნელობას შემდეგი პირობების მიხედვით:
-read_pages ცვლადში ინახება წაკითხული გვერდების რაოდენობა (მთლიანი რიცხვი).
-free_time ცვლადში ინახება boolean მნიშვნელობა (True/False), რომელიც გვიჩვენებს, ჰქონდა თუ არა თავისუფალი დრო.
-productive ცვლადი იქნება ჭეშმარიტი (True), თუ მოსწავლემ წაიკითხა მინიმუმ 20 გვერდი და თავისუფალი დრო ჰქონდა.
-"""
-read_pages = int(input("რამდენი გვერდი წაიკითხე: "))
-free_time = bool(input("გქონდა თავისუფალი დრო? (true/false): "))
-productive = read_pages >= 20 and free_time
-print(productive)
+"""4) შექმენით 5 ცვლადი, რომლებშიც შეინახავთ განსხვავებულ ლოგიკურ და შედარების ოპერაციათა შედეგებს (უნდა იყოს შედარების და ლოგიკური ოპერატორები ერთად მაგალითად temperature > 30 and not cloudy), გვერდზე კომენტარის საშვალებით მიუწერეთ ეს შედეგი (boolean მნიშვნელობა) აიღეთ მრავალფეროვანი კომბინაციები"""
+temperature = -12
+cloudy = True
+Winter = True
+snow = True
+money = False
+
+print(temperature > 30 and not snow ) #false
+print(temperature < -12 or money is 12 ) #false
+print(snow == False and money is True) #false
+print(Winter == False or temperature < -12) #false
+print(Winter == False or snow is True) #true

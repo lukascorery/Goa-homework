@@ -1,12 +1,8 @@
-"""4) შექმენით 5 ცვლადი, რომლებშიც შეინახავთ განსხვავებულ ლოგიკურ და შედარების ოპერაციათა შედეგებს (უნდა იყოს შედარების და ლოგიკური ოპერატორები ერთად მაგალითად temperature > 30 and not cloudy), გვერდზე კომენტარის საშვალებით მიუწერეთ ეს შედეგი (boolean მნიშვნელობა) აიღეთ მრავალფეროვანი კომბინაციები"""
-temperature = -12
-cloudy = True
-Winter = True
-snow = True
-money = False
-
-print(temperature > 30 and not snow ) #false
-print(temperature < -12 or money is 12 ) #false
-print(snow == False and money is True) #false
-print(Winter == False or temperature < -12) #false
-print(Winter == False or snow is True) #true
+"""3) შექმენით 5 ცვლადი, რომლებშიც შეინახავთ განსხვავებულ შედარების ოპერაციათა შედეგებს, შედარების ოპერაციას გვერდზე კომენტარის საშვალებით მიუწერეთ მისი შედეგი (boolean მნიშვნელობა) და ახსენით რა განსხვავებაა ოპერატორსა და ოპერაციას შორის"""
+first = True        #True
+second = False      #False
+third = 12 > 5      #True
+fourth = 100 < 20   #False
+third = 200 != 200  #False
+# ოპერატორი არის მხოლოდ სიმბოლო, რომელიც განსაზღვრავს, რა უნდა მოხდეს.
+# ოპერაცია არის რეალური მოქმედება, რომელიც ხორციელდება ოპერატორის დახმარებით.

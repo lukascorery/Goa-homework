@@ -1,34 +1,9 @@
-"""5) შექმენით 10 string ტიპის და 10 ინტეჯერ ტიპის ცვლადი, გააკეთეთ 5 კონკატინაციისა (სტრინგების შეერთების) და 5 მათემატიკური ჯამის მაგალითი"""
-num_1 = "1"
-num_2 = "2"
-num_3 = "3"
-num_4 = "4"
-num_5 = "5"
-num_6 = "6"
-num_7 = "7"
-num_8 = "8"
-num_9 = "9"
-num_10 = "10"
+"""4) დაწერეთ პითონის კოდი რომელიც მომხმარებელს input-ის საშვალებით შეეკითხება და ცვლადში შეინახავს შემდეგ ინფორმაციას:"""
 
-num_11 = 11
-num_12 = 12
-num_13 = 13
-num_14 = 14
-num_15 = 15
-num_16 = 16
-num_17 = 17
-num_18 = 18
-num_19 = 18
-num_20 = 20
+full_name = input("what is your full name: ")
+age = input("what is your age: ")
+location = input("where do you live: ")
+occupation = input("what is your occupation: ")
+hobby = input("What is your hobby: ")
 
-print(num_1 + num_2)
-print(num_3 + num_4)
-print(num_5 + num_6)
-print(num_7 + num_8)
-print(num_9 + num_10)
-
-print(num_11 + num_12)
-print(num_13 + num_14)
-print(num_15 + num_16)
-print(num_17 + num_18)
-print(num_19 + num_20)
+print("This is " + full_name + ". " + "He is " + age + " years old, and is a " + occupation + ". " + "He lives in " + location +", and he likes " + hobby)

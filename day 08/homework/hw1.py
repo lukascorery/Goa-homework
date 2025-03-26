@@ -1,9 +1,24 @@
-"""4) დაწერეთ პითონის კოდი რომელიც მომხმარებელს input-ის საშვალებით შეეკითხება და ცვლადში შეინახავს შემდეგ ინფორმაციას:"""
+"""2) შექმენით 5 ცვლადი რომლებშიც შეინახავთ წიგნების თავდაპირველ ფასს, შემდეგ შექმენით ცვლადი რომელშიც შეინახავთ ფასდაკლების ოდენობას, შექმენით ახალი ფასის მქონე წიგნების ცვლადები, რომელთა მნიშვნელობა იქნება ძველ მნიშვნელობას გამოკლებული ახალი, საბოლოოდ კი დაბეჭდეთ ახალი წიგნების ფასები (გამოიყენეთ კარგი მიდგომები: რომ ცვლადის მნიშვნელობის მინიჭებისას შეგიძლიათ სხვა ცვლადის გამოყენება, კოდი ახსენით კომენტარების საშვალებით, ცვლადებს დაარქვით აღმწერი სახელები snake_case-ის სტილში)"""
+#შევქმენი 5 ცვლადი სადაც თითოეულში შევიტანე სხვადასხვა წიგნის ფასი
+book_1 = 100
+book_2 = 200
+book_3 = 300
+book_4 = 400
+book_5 = 500
 
-full_name = input("what is your full name: ")
-age = input("what is your age: ")
-location = input("where do you live: ")
-occupation = input("what is your occupation: ")
-hobby = input("What is your hobby: ")
+#შევქმენი ფასდაკლების კუპონი რომლიც არის 25% ფასდაკლება
+sale_coupon = 3/4
 
-print("This is " + full_name + ". " + "He is " + age + " years old, and is a " + occupation + ". " + "He lives in " + location +", and he likes " + hobby)
+#გამოვიყენე ფასდაკლების კუპონი ყველა წიგნზე. 
+book_1 = book_1 * sale_coupon
+book_2 = book_2 * sale_coupon
+book_3 = book_3 * sale_coupon
+book_4 = book_4 * sale_coupon
+book_5 = book_5 * sale_coupon
+
+#დავბეჭდე ფასდაკლებით ნაყიდი წიგნების ფასი.
+print(book_1)
+print(book_2)
+print(book_3)
+print(book_4)
+print(book_5)
