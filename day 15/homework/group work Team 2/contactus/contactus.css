@@ -1,0 +1,120 @@
+body{
+    background-image: url(page\ design.webp);
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+
+.head{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.head h1{
+    color: rgb(255, 0, 132);
+    font-size: xx-large;
+}
+
+.head p{
+    color:rgb(255, 255, 255)
+}
+
+.head2{
+
+    text-align: center;
+    align-items: center;
+    padding-left: center;
+
+}
+
+.all {
+    width: 350px;
+    background-color: purple;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh; 
+    margin: auto; 
+    border-radius: 10px; 
+    padding: 20px; 
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.name{
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 2px solid;
+    border-radius: 40px;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    
+}
+.name:focus::placeholder{
+    color: transparent;
+}
+.name::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.email{
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 2px solid;
+    border-radius: 40px;
+    padding:10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.email:focus::placeholder{
+    color: transparent;
+}
+.email::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.type{
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 2px solid;
+    border-radius: 40px;
+    padding:10px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.type:focus::placeholder{
+    color: transparent;
+    
+}
+.type::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.submit{
+    width: 100%;
+    height: 45;
+    outline: none;
+    border-radius: 40px;
+    border: none;
+
+}
+.submit1{
+    text-decoration: none;
+    color: black;
+}
+
+.technoshop {
+    font-size: 20px;
+    color: pink;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.technoshop:hover {
+    color: rgb(231, 145, 159);
+}

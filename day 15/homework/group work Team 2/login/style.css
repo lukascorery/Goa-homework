@@ -1,0 +1,17 @@
+body{
+    background: url('image.png') no-repeat center/cover;
+}
+h1{
+    color:aqua
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(0, 0, 255);
+    text-decoration:none ;
+    padding-left:300 px ;
+}
+
+.button{
+    text-decoration: none;
+}

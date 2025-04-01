@@ -1,0 +1,70 @@
+body {
+    background-image: url(../backrgoundimage.avif); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.technoshop {
+    margin-left: 10px;
+    font-size: 20px;
+    color: beige;
+    text-decoration: none;
+}
+
+.technoshop:hover {
+    color: rgb(199, 199, 157);
+}
+
+.h1 {
+    text-align: center; 
+    font-size: 25px;
+}
+
+.mainimg{
+    display: flex;
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.maindiv {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px;  
+}
+
+
+.div {
+    width: 80px; 
+    height: auto;
+}
+
+.p{
+    text-align: center;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+.amount{
+    text-align: center;
+    color: green;
+}
+
+.button{
+    border:none;
+    color: white;
+    background: lime;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}

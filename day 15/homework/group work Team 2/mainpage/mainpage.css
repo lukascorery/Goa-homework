@@ -1,0 +1,139 @@
+body {
+    background-image: url(page\ design.webp);
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.mainbuttons {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+}
+
+.technoshop {
+    font-size: 20px;
+    color: pink;
+    text-decoration: none;
+}
+
+.technoshop:hover {
+    color: rgb(231, 145, 159);
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rgb(244, 228, 228);
+}
+
+.buttonlogin {
+    background-color: transparent;
+    border-radius: 50px;
+    width: 70px;
+}
+
+.buttonlogin:hover {
+    background-color: black;
+}
+
+.maindiv {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 25px;
+    margin-top: 20px; 
+}
+
+.div {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    justify-content: flex-start;
+    border: 2px solid;
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    margin-left: 25px;
+    border-color: white;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.button label{
+    color: black;
+}
+.button p{
+    color: lime;
+}
+.button:hover {
+    cursor: pointer;
+}
+
+.xiaomi {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+.xiaomilabel {
+    margin-top: 10px;
+}
+
+.laptop {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+.laptoplabel{
+    margin-top: 10px;
+}
+
+.tablet {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+.tabletlabel{
+    margin-top: 10px;
+}
+
+.samsung {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+.samsunglabel{
+    margin-top: 10px;
+}
+
+.pc {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+.pclabel{
+    margin-top: 10px;
+}
+
+
+
+
+
