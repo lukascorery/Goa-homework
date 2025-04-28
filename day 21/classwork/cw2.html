@@ -1,0 +1,22 @@
+<!-- 2) კომენტარებით ახსენით რით განსხვავდება inline და block level ელემენტები, მოიყვანეთ მაგალითები და დაამტკიცეთ border და background color კუთვნილებების საშვალებით, საბოლოოდ კი გამოიტანეთ დასკვნა და დააჯგუფეთ თქვენთვის ცნობილი თეგები inline და block ელემენტებად -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Block-level ელემენტები გამოირჩევიან იმით, რომ ისინი იწყებენ ახალ ხაზზე და იკავებენ მთელ ხელმისაწვდომ სიგანეს. ასეთი ელემენტებია მაგალითად: <div>, <p>, <h1>-<h6>, <ul>, <ol>, <li>, <section>, <article>. როდესაც მათ მივანიჭებთ border და background-color მახასიათებლებს,  ისინი იკავებენ დიდ ბლოკურ სივრცეს. -->
+    <!-- Inline ელემენტები, პირიქით, არ იწყებენ ახალ ხაზზე, ისინი იკავებენ მხოლოდ იმდენ ადგილს, რამდენიც ტექსტს სჭირდება. Inline ელემენტებია: <a>, <strong>, <em>, <img>, <label>. მათი სტილიზაცია border და background-color მახასიათებლებით აჩვენებს, რომ სივრცე მხოლოდ კონტენტზეა გათვლილი და არა მთელ ხაზზე. -->
+    
+    <div style="background-color: lightblue; border: 2px solid black; width: 100%; padding: 10px; text-align: center;">
+        <h1 style="color: blue;">Block-level Element</h1>
+        <p style="color: green;">parahraph</p>
+    </div>
+
+    <div style="background-color: lightgreen; border: 2px solid black; width: 100%; padding: 10px; text-align: center;">
+        <h1 style="color: blue;">Inline Element</h1>
+</body>
+</html>

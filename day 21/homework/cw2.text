@@ -1,0 +1,6 @@
+2. გაანაწილეთ ყველა თეგი რომელიც აქამდე ვისწავლეთ 2 ჯგუფში: inline და block level
+
+block level elements:
+                <h1>-<h6>, <p>, <section>, <header>, <footer>, <form>, <table>...
+inline level elements:
+                    <a>, <img>, <strong>, <b>, <i>, <br>, <input>, <label>...

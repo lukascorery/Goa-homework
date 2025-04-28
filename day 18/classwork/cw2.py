@@ -8,8 +8,12 @@ else:
     print("too bad.")
 
 
-" bonu "
+" bonus "
 if point %2 == 0:
     print("even")
 else:
     print("odd")
+
+
+
+
