@@ -1,0 +1,60 @@
+<!-- 4) შექემნით ვებგვერდი თქვენს შესახებ, რომელზეც მოცემული იქნება ინფორმაცია და სურათები. გამოიყენეთ Internal CSS გასტილვისთვის და ელემენტები გასტილეთ შთამომავალი selector-ისა (გამოიყენეთ მინიმუმ 3-ჯერ) და id-ის მეშვეობით -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        .hobby {
+            color: #27ae60;
+        }
+        
+        #picture {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .contact p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>ჩემ შესახებ</h1>
+    <p id="introduction">გამარჯობა! მე ვარ ლუკა შავაძე, ვცხოვრობ ხულოში სოფ ქედლებში.</p>
+    <p class="hobby">მიყვარს კოდირება და ახალი ტექნოლოგიების სწავლა.</p>
+    <p class="hobby">მეცნიერება და ხელოვნება ჩემი ინტერესის სფეროა.</p>
+    
+    <img src="image.jpg" alt="ჩემი სურათი" id="picture">
+    
+    <div class="contact">
+        <p>ელ. ფოსტა: lukashavadze2008@gmail.com</p>
+        <p>ტელეფონი: ############</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1) შექმენით 3 h2-ის ელემენტი, თითოეულის ქვემოთ უნდა იყოს 1 ღილაკი და პარაგრაფი. მხოლოდ მეორე h2-ს მიანიჭეთ წითელი ფერი id-ის გამოყენებით. ხოლო პირველი, მეორე და მესამე სექციები ცალ-ცალკე გასტილეთ class სელექტორის საშვალებით. გამოიყენეთ internal css -->
+
+
+    <style>
+        h2.second {
+        
+            color: tomato;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .first, .second, .third {
+            background-color: rgb(25, 9, 146);
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+
+    </style>
+
+    <section class="first">
+            <h2>satauri</h2>
+        <button>ღილაკი</button>
+        <p></p>
+    </section>
+
+
+    <section class="second">
+        <h2 id="second"></h2>
+        <button>ღილაკი</button>
+        <p></p>
+    </section>
+
+    <section class="third">
+        <h2></h2>
+        <button>ღილაკი</button>
+        <p></p>
+    </section>
+
+</body>
+</html>

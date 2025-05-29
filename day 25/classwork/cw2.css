@@ -1,0 +1,19 @@
+.h1{
+ color: red;
+ background-color: black;
+}
+
+.p{
+ color: blue;
+ background-color: white;
+}
+
+.button{
+    color: darkblue;
+    background-color: limegreen;
+}
+
+.h11{
+    color: black;
+    background-color: lime;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 2) გასტილეთ ვებგვერდზე ყველა h2 და h3 თქვენთვის სასურველი CSS-ის დეკლარაციებით, ოღონდ გამოიყენეთ მხოლოდ 1 CSS-ის წესი (ესეიგი ერთად უნდა დაწეროთ selector-ში და დააცილოთ მძიმით), შემდეგ კი გასტილეთ ყველა ღილაკი ცისფერი ფონის ფერით ვებგვერდზე ხოლო ის ღილაკები რომელბიც div-შია ჩასმული გასტილეთ მწვანე ფონის ფერით -->
+   
+   <style>
+        body{
+            background-color: aqua;
+        }
+
+        h2, h3 {
+            color: blue;
+            font-size: 20px;
+        }
+
+        button, p {
+            background-color: rgb(8, 108, 142);
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        div button {
+            background-color: rgb(7, 148, 7);
+        }
+    </style>
+
+
+    <h2>H2</h2>
+    <h3>H3</h3>
+
+    <button>Button 1</button>
+     
+    <div>
+        <button>Button 2</button>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nulla error dolore natus voluptatum in voluptatibus doloremque aliquid odio excepturi vero sint debitis impedit, earum fugit fuga cupiditate veritatis exercitationem.</p>
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* 2) კომენტარებით დაწერეთ CSS-ის სხვადსხვა წესების სელექტორად იგივე ელემენტი როდესაც გვაქვს რომელი სტილი იმარჯვებს, რომელი სელექტორია ყველაზე პრიორიტეტული. მოიყვანეთ ყველა დონის მაგალითი */
+        
+        
+        /* css priority:
+        1. id -  აქვს ყველაზე მაღალი პრიორიტეტი
+        
+        2. class - საშუალო პრიორიტეტი
+        3. თეგებს - ყველაზე დაბალი პრიორიტეტი
+        */
+
+        p.id {
+            color: red; 
+        }
+
+        p.class {
+            color: blue; 
+        }
+
+        p {
+            color: green; 
+        }
+    </style>
+
+    <p id="first">first</p>
+    <p class="class">class</p>
+
+    <p>paragraph</p>
+</body>
+</html>
