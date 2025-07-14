@@ -1,0 +1,15 @@
+/* 5) შექმენით თქვენი პროფილის მრავალგვერდიანი ვებსაიტი, რომელშიც გამოიყენებთ external css-ს */
+* {
+    background-color: yellow;
+}
+h1 {
+    color: black;
+}
+
+p b{
+    color: lime;
+}
+
+p i{
+    color: green;
+}

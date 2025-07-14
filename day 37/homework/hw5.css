@@ -1,0 +1,43 @@
+body {
+    background-color: limegreen;
+    display: flex;
+    justify-content: center; 
+    align-items: center;              
+    margin: 0;   
+    flex-direction: column;          
+}
+
+#cat{
+    width: 300px;
+    height: auto;
+}
+#div1 {
+    
+    background-color: white;
+    text-align: center;
+    border: 2px solid white;
+    padding: 20px;          
+    width: 300px;           
+    border-radius: 10px;    
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+}
+#div2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+#para{
+    color: rgb(152, 148, 148);
+}
+
+#contact{
+    border: 2px solid black;
+    border-radius: 20px;
+    
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+}

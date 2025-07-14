@@ -1,0 +1,15 @@
+/* 2) Google Fonts-ისდან აიღეთ 3 თქვენთვის სასურველი ფონტი და დააიმპორტეთ HTML-ის embed კოდით. შექმენით 3 პარაგრაფი და თითოეულს მიანიჭეთ განსხვავებული დაიმპორტებული ფონტი, ასევე პარაგრაფის ტექტსი (content) უნდა იყოს იგივე რაც ფონტის დასახელება რომელსაც მიანიჭებთ */
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+}
+
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}

@@ -1,0 +1,35 @@
+<!-- 4) თქვენის სიტყვებით ახსენით და კომენტარებით დაწერეთ CSS specificity (ბრაუზერის ალგორითმი რომელიც პრიორიტეტების მიხედვით ანიჭებს ელემენტებს სტილს) მოიყვანეთ 4-ივე შემთხვევის მაგალითი -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1) Element Selector - ყველაზე დაბალი specificity */
+        p {
+            color: blue;
+        }
+
+        /* 2) Class Selector - საშუალო specificity */
+        .highlight {
+            background-color: yellow;
+        }
+
+        /* 3) ID Selector - მაღალი specificity */
+        #unique {
+            font-weight: bold;
+        }
+
+        /* 4) Inline Styles - ყველაზე მაღალი specificity */
+        .inline {
+            color: red ;
+        }
+    </style>
+</head>
+<body>
+    <p class="highlight">This is a paragraph.</p>
+    <p id="unique">This is another paragraph.</p>
+    <p class="inline">This is an inline styled paragraph.</p>
+</body>
+</html>

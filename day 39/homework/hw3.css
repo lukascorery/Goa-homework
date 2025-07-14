@@ -1,0 +1,81 @@
+/* 3) შექმენით ლინკების სია რომელშიც თითო ლინკი გადაჰყავს სხვადასხვა საიტზე (მაგ: sololearn, wikipedia, w3schools). თითოეულ ლინკს შეუცვალეთ ფერი და კიდევ ორი სტილი (მაგ: background-color, text-decoration) ოთხივე მდგომარეობაში: :link, :visited, :hover, :active. გამოიყენეთ კლასები და კომენტარებით დაუწერეთ რა მდგომარეობას წარმოადგენს თითოეული pseudo-class */
+a.link1:link, a.link2:link, a.link3:link {
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+a.link1:link {
+  color: blue;
+  background-color: #d0e7f9;
+}
+
+a.link2:link {
+  color: green;
+  background-color: #d0f9d7;
+}
+
+a.link3:link {
+  color: orange;
+  background-color: #f9e6d0;
+}
+
+a.link1:visited {
+  color: purple;
+  background-color: #e0cdf9;
+  text-decoration: underline;
+}
+
+a.link2:visited {
+  color: darkgreen;
+  background-color: #cde9cd;
+  text-decoration: underline;
+}
+
+a.link3:visited {
+  color: orangered;
+  background-color: #f9d7cd;
+  text-decoration: underline;
+}
+
+a.link1:hover {
+  color: darkblue;
+  background-color: #a3c7f7;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a.link2:hover {
+  color: darkgreen;
+  background-color: #a3f7a3;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a.link3:hover {
+  color: darkorange;
+  background-color: #f7bca3;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a.link1:active {
+  color: navy;
+  background-color: #739ce6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.link2:active {
+  color: forestgreen;
+  background-color: #73e673;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.link3:active {
+  color: tomato;
+  background-color: #e6734c;
+  font-weight: bold;
+  text-decoration: none;
+}

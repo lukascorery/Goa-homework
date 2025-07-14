@@ -1,0 +1,29 @@
+/* 1) შექმენით 2 div, box1 და box2 მიანიჭეთ მათ შესაბამისი id, შემდეგ მიანიჭეთ width, ორივე ელემენტს, ასევე backgroundcolor და border კუთვნილებები. შემდეგ პირველ box1-ს გაუწერეთ 15px padding და 40px margin, ხოლო მეორე box-ს გაუწერეთ 10px padding და 30px margin. შემდეგ კომენტარებით დაწერეთ რა არის padding და margin კუთვნილებები და ზოგადად CSS Box Model */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: rgb(10, 86, 111);
+    padding: 15px;
+    margin: 40px;
+}
+
+.div2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: red;
+    padding: 10px;
+    margin: 30px;
+}
+
+/* Box Model – ელემენტის ჩარჩო: content, padding, border, margin. */
+/* Margin – გარედან ელემენტებს შორის სივრცე. */
+/* Padding – შიგნით ელემენტის საზღვრებს შორის სივრცე. */
+/* web reset - ვებგვერდზე ყველაფრის საწყისი ზომა */

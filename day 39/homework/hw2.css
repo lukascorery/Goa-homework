@@ -1,0 +1,19 @@
+/*2) შექმენით ნავიგაცია რომელშიც იქნება 3 ბმული, თითოეულს pseudo class-ის გამოყენებით შეუჩვალეთ hover და active მდოგმარეობებისას ტექსტის ფერი და დამატებით 2 კუთვნილება. კომენტარებით თუ რა არის pseudo class და მდგომარეობა (state) */
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 12px;
+  font-weight: normal;
+}
+
+nav a:hover {
+  color: red;
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+nav a:active {
+  color: white;
+  background-color: darkred;
+  text-decoration: underline;
+}

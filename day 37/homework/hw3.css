@@ -1,0 +1,19 @@
+/* 3) External CSS-ში @import url()-ის გამოყენებით დააიმპორტეთ Google Fonts-იდან მოძიებული თქვენთვის სასურველი 3 ფონტი. აიღეთ 3 პარაგრაფი თითოეული გასნხვავებული id-ით და მიანიჭეთ ეს ფონტები font-family კუთვნილების გამოყენებით, ასევე აიღეთ 1 სათადარიგო generic ფონტი
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Indie+Flower&display=swap');
+
+#montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+#playfair {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+
+#indie {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+}

@@ -1,0 +1,7 @@
+/* 3) შექმენით დაულაგებელი სია ('ul') და მიანიჭეთ მას სტილი 'list-style-type: square' რათა მარკერები იყოს კვადრატის ფორმის. ასევე დაუმატეთ მარცხენა საზღვარი 'border-left: 4px solid orange' */
+.square_list {
+    list-style-type: square;
+    border-left: 4px solid orange;
+    padding-left: 10px;
+    margin-left: 0;
+}

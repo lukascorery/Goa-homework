@@ -1,0 +1,15 @@
+/* 1) შექმენით ერთი პარაგრაფი და გასტილეთ მისი ტექსტი შემდეგი კუთვნილებებით: text-align, text-decoration-line, text-decoration-style, text-decoration-color, text-transform, text-shadow */
+.p {
+    /* უცვლის ტექტს ადგილს */
+    text-align: center;
+    /* ტექსტის დეკორაცია რომელიც მას უსვამს ხაზს */
+    text-decoration-line: underline;
+    /* ხაზის სტილი რომელსაც იძენს ხაზი */
+    text-decoration-style: dashed;
+    /* ხაზის ფერი */
+    text-decoration-color: rgb(4, 0, 0);
+    /* ტექსტის ტრანსფორმაცია რომელიც მას აძლევს დიდ პირველ ასობგერას */
+    text-transform: capitalize;
+    /* ტექსტის ჩრდილი */
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}

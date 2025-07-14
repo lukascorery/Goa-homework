@@ -1,0 +1,14 @@
+/* 6) შექმენით მეორე და მესამე პარაგრაფი რომლებსაც მიანიჭებთ შესაბამისად 'id='p2' და 'id='p3' გასტილეთ ყველა კუთვნილებებით რომლებიც წინა დავალებებშია ნახსენები, დაწერეთ რას აკეთებს თითოეული კუთვნილება კომენტარებით */
+
+#p22, #p32{
+    color: lime;
+    background-color: green;
+    width: 100px;
+    height: 20px;
+    text-shadow: 10px 2px 4px black;
+    text-transform: capitalize;
+    text-decoration-line: overline;
+    text-decoration-color: aqua;
+    text-decoration-style: dashed ;
+    text-align: center;
+}
