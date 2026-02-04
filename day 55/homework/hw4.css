@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.boot-screen {
+    text-align: center;
+}
+
+.apple-logo {
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+
+.loader {
+    width: 200px;
+    height: 5px;
+    background-color: #333; 
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.progress {
+    width: 0;
+    height: 100%;
+    background-color: white;
+    animation: loading 3s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+}

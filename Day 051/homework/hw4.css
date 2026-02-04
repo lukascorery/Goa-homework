@@ -1,0 +1,22 @@
+/* 4) ახსენით რა არის transition და რისთვის ვიყენებთ. განმარტეთ თითოეული ქვე-კუთვნილება: transition-property, transition-duration, transition-timing-function, transition-delay */
+
+
+/* Transition არის CSS თვისება, რომელიც საშუალებას გვაძლევს ელემენტების სტილის ცვლილებები წარმოვაჩინოთ. ჩვენ ვიყენებთ transition-ს იმისთვის, რომ როდესაც ელემენტის სტილი იცვლება, ეს ცვლილება  მოხდეს გარკვეული დროის განმავლობაში.
+
+/* transition-property: ეს ქვე-კუთვნილება განსაზღვრავს, თუ რომელი CSS თვისებები უნდა შეიცვალოს ტრანზიციის დროს. */
+.box-transition {
+    transition-property: background-color, width; /* ტრანზიცია ფონის ფერისა და სიგანისთვის */
+}
+
+/* transition-duration: ეს ქვე-კუთვნილება განსაზღვრავს, თუ რამდენ ხანს გაგრძელდება ტრანზიცია. */
+.box-transition {
+    transition-duration: 2s; /* ტრანზიციის ხანგრძლივობა 2 წამი */
+}
+/* transition-timing-function: ეს ქვე-კუთვნილება განსაზღვრავს ტრანზიციის სიჩქარის განაწილებას დროის განმავლობაში. */
+.box-transition {
+    transition-timing-function: ease-in-out; /* ტრანზიცია იწყება და მთავრდება ნელა, ხოლო შუაში სწრაფად */
+}
+/* transition-delay: ეს ქვე-კუთვნილება განსაზღვრავს, თუ რამდენი დრო უნდა გავიდეს ტრანზიციის დაწყებამდე. */
+.box-transition {
+    transition-delay: 1s; /* ტრანზიციის დაწყებამდე 1 წამი */
+}

@@ -1,0 +1,19 @@
+/* 1) შექმენით div მიანიჭეთ ზომები, ფერი და საზღვარი. შეგიძლიათ border-radius. hover და active მდგომარეობებისას transform კუთვნილების მეშვეობით გარდაქმენით ელემენტი, გამოიყენეთ ყველა trasnform-ის თვისება: translate, rotate, scale, skew. შეეცადეთ შექმნათ ლამაზი ტრანსფორმაცია */
+
+#container {
+    width: 250px;
+    height: 250px;
+    background-color:green;
+    transform-origin: top left;
+    
+}
+#container:hover{
+    transform: translate(100px, 100px) rotate(30deg) scale(1.05);
+    border-radius: 50%;
+    background-color: white;
+}
+/* transform არის CSS-ის თვისება, რომელიც საშუალებას აძლევს ელემენტებს ტრანსფორმაციის ანუ შეცვლის. მას ვიყენებთ როდესაც გვსურს ელემენტის ტრანსფორმაცია. */
+/* scale - ელემენტის ზომის შეცვლის საშუალებას იძლევა. */
+/* translate - ელემენტის პოზიციის შეცვლის საშუალებას იძლევა. */
+/* rotate - ელემენტის ბრუნვის საშუალებას იძლევა. */
+/* skew - ელემენტის დახრის საშუალებას იძლევა. */

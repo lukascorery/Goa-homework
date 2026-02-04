@@ -1,0 +1,10 @@
+/* 1) შექმენით ორი სია: 1 დალაგებული და მეორე დაულაგებელი. სიაში ჩამოწერეთ თქვენთის სურველი ელემენტები და გასტილეთ ორივე სია. პირველის შემთხვევაში გამოიყენეთ 3 ნასწავლი ქვე-კუთვნილება: list-style-position, list-style-type, list-style-img. ხოლო მეორეში გააერთიანეთ 3-ივე კუთვნილება list-style-ში. არ აურიოთ სემანტიკა */
+.ordered-list {
+    list-style-position: inside;
+    list-style-type: lower-roman;
+    list-style-image: url(link);
+}
+
+.unordered-list {
+    list-style: inside square url(link);
+}

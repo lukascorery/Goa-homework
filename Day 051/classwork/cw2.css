@@ -1,0 +1,34 @@
+/* 2) შექმენით div, რომელსაც მიანიჭებთ თავდაპირველ სტილს (გაცენტრავთ, ფონის-ფერი, ზომები, საზღვარი) შემდეგ hover და active მდგომარეობებისას შეცვალეთ ელემენტი transform-ის ყველა თვისებით, ფონის ფერით და კიდევ თქვენთვის სასურველი კუთვნილებებით. შემდეგ transition კუთვნიელბის გამოყენებით ეს გადასვლა გახადეთ smooth ამისათვის გამოიყენეთ: (ყველა ეს კუთვნილება ახსენით კომენტარებით
+
+transition-property
+transition-duration
+transition-delay (optional - თუ გინდათ)
+transition-timing-function */
+
+#scaling{
+    width: 300px;
+    height: 60px;
+    background-color: limegreen;
+    border-radius: 100px;
+    border: 2px solid limegreen;
+    transition-duration: 600ms;
+    transition-property: width;
+    transition-timing-function: ease;
+    transition-delay: 1;
+    transition-timing-function: ease-in-out;
+    
+}
+#scaling:hover{
+    transform: translate(100px,100px) rotate(35deg);
+    
+
+    width: 200px;
+    background-color: darkred;
+    border:  2px solid darkred;
+    
+}
+
+/* transition-duration არის თვისება რომელიც განსაზღვრავს რამდენ ხანს გაგრძელდება ეფექტი */
+/* transition-timing-function არის თვისება რომელიც განსაზღვრავს ეფექტის დროის განაწილებას */
+/* transition-property არის თვისება რომელიც განსაზღვრავს რომელი კუთვნილებები უნდა შეიცვალოს ტრანსფორმაციის დროს */
+/* transition-delay არის თვისება რომელიც განსაზღვრავს რამდენი ხანი უნდა გავიდეს სანამ ტრანსფორმაცია დაიწყება */

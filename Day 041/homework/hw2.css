@@ -1,0 +1,10 @@
+/* 2) შექმენით ცხრილი, რომელსაც ექნება სამი სვეტი და ორი რიგი. მიანიჭეთ სტილი 'border: 2px solid black' რათა ცხრილს ქონდეს 2 პიქსელიანი შავი საზღვარი. გამოიყენეთ 'border-collapse: collapse' რათა ხაზები არ იყოს ორმაგი */
+.custom-table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.custom-table td {
+    border: 2px solid black;
+    padding: 8px;
+}

@@ -1,0 +1,38 @@
+/* 4) შექმენით 5 div ბლოკი, გაუწერეთ სხვადასხვა კუთვნილებები, აუცილებლად მიანიჭეთ ყველას margin და padding, გატესტეთ სხვადასხვა ვარიანტები */
+
+
+.div1 {
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  margin: 10px;
+  padding: 10px;
+}
+.div2 {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 20px;
+  padding: 5px;
+}
+.div3 {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+  margin: 15px;
+  padding: 12px;
+}
+.div4 {
+  width: 100px;
+  height: 100px;
+  background-color: lightyellow;
+  margin: 25px;
+  padding: 8px;
+}
+.div5 {
+  width: 100px;
+  height: 100px;
+  background-color: lightpink;
+  margin: 30px;
+  padding: 6px;
+}

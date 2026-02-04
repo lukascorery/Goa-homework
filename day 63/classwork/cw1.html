@@ -1,0 +1,44 @@
+<!-- 1) შექმენით ფუნქცია რომელიც cosole-ში გამოიტანს "Hello World"-ს, შემდეგ შექმენით ფუნქცია რომელიც დააბრუნებს რაიმე რიცხვს, აიღეთ ახალი ფუნქცია და დააბრუნეთ 2 რიცხვის ჯამი და საბოლოოდ ფუნქცია რომელიც არგუმენტად მიიღებს ფერს და კონკრეტულ პარაგრაფს მიანჭებს არგუმენტად გადაცემულ ფერს -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">hello javascript</p>
+
+    <script>
+
+        function sayHello() {
+            console.log("Hello World")
+        }
+
+        sayHello()
+
+        function giveNumber() {
+            return 5
+        }
+
+        let number = giveNumber()
+        console.log(number)
+
+        function sumOfNumbers() {
+            return 3 + 7
+        }
+
+        let sum = sumOfNumbers()
+        console.log(sum)
+
+        function changeColor(color) {
+            let myParagraph = document.getElementById("p1")
+            myParagraph.style.color = color
+        }
+
+        changeColor("red")
+
+    </script>
+</body>
+</html>

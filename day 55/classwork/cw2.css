@@ -1,0 +1,70 @@
+/* 2) შექმენით keyframe რომელიც შვილ ელემენტს აბრუნებს მშობელი ელემენტის კიდეების გარშემო. შემდეგ ეს keyframe გაუწერეთ შვილ ელემენტის animation კუთვნილებას, შემდეგ მნიშვნლობებთან ერთად
+
+duration
+timing-function
+delay
+iteration count
+hover: playstate
+fill-state */
+
+
+
+.parent {
+    width: 300px;
+    height: 300px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    margin: 50px auto;
+    position: relative; 
+    overflow: hidden;
+  }
+
+
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: absolute; 
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    animation-name: orbit;
+    animation-duration: 6s; 
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); 
+    animation-delay: 1s; 
+    animation-iteration-count: infinite; 
+    animation-play-state: paused; 
+    animation-fill-mode: forwards; 
+  }
+
+
+.parent:hover .child {
+    animation-play-state: running;
+  }
+
+
+@keyframes orbit {
+    0% {
+      transform: translateX(-50%) translateY(0);
+    }
+    25% {
+      transform: translateX(150%) translateY(0); 
+    }
+    50% {
+      transform: translateX(150%) translateY(150%);
+    }
+    75% {
+      transform: translateX(-50%) translateY(150%); 
+    }
+    100% {
+      transform: translateX(-50%) translateY(0); 
+    }
+}
